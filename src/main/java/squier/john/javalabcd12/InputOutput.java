@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class InputOutput {
 
-    private int intInput = 0;
+    private int input = 0;
     private String sumOrProduct = null;
     private boolean sumTproductF = false;
     private Scanner scanner = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class InputOutput {
 
         if ( sumOrProduct.equalsIgnoreCase("add") ) {
             sumTproductF = true;
-            return sumTproductF
+            return sumTproductF;
         }
         else {
             sumTproductF = false;

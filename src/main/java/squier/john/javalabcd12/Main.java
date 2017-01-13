@@ -11,12 +11,20 @@ public class Main {
         InputSummer inputSummer = new InputSummer();
         InputFactorial inputFactorial = new InputFactorial();
 
+        int result;
         int input = inputOutput.getIntInput(
                 "Enter the number you wish to operate on: ");
 
         boolean sumTproductF = inputOutput.getSumTProductF(
                 "Do you wish to SUM or MULTIPLY?:");
 
+        if ( sumTproductF ) {
+            result = inputSummer.sumUpToInput(input);
+        }
+        else {
+            result = inputFactorial.calculateFactorial(input);
+        }
 
+        inputOutput.displayResult(result);
     }
 }
