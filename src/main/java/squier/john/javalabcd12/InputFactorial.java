@@ -7,7 +7,7 @@ public class InputFactorial {
 
     public int calculateFactorial(int input) {
 
-        int factorial = 0;
+        int factorial = 1;
 
         if ( input > 0 ) {
 
@@ -18,18 +18,8 @@ public class InputFactorial {
             return factorial;
 
         }
-        else if ( input == 0 ) {
-
-            return 0;
-
-        }
         else {
-
-            for ( int i = 1; i >= input; i-- ) {
-                factorial *= i;
-            }
-
-            return factorial;
+            return 0;
         }
     }
 }

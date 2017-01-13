@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0985ef0b-bb66-49d9-b8e2-7e590d804228" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/squier/john/javalabcd12/InputOutput.class" afterPath="$PROJECT_DIR$/target/classes/squier/john/javalabcd12/InputOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/squier/john/javalabcd12/Main.class" afterPath="$PROJECT_DIR$/target/classes/squier/john/javalabcd12/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FroilanLab3.iml" afterPath="$PROJECT_DIR$/FroilanLab3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputOutput.java" afterPath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputOutput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java" afterPath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java" afterPath="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputFactorialTest.java" afterPath="$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputFactorialTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
@@ -66,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputSummerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputSummerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputSummerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
+            <state relative-caret-position="-190">
               <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
@@ -79,8 +73,8 @@
       <file leaf-file-name="InputFactorialTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputFactorialTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="608">
+              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +85,8 @@
       <file leaf-file-name="InputFactorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="95">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -120,11 +114,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputSummer.java" />
         <option value="$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputSummerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java" />
         <option value="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputOutput.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputFactorialTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java" />
       </list>
     </option>
   </component>
@@ -258,7 +252,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.InputSummerTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="InputSummerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -309,6 +303,52 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InputFactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="squier.john.javalabcd12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FroilanLab3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="squier.john.javalabcd12" />
+      <option name="MAIN_CLASS_NAME" value="squier.john.javalabcd12.InputFactorialTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="squier.john.javalabcd12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="squier.john.javalabcd12.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FroilanLab3" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -684,14 +724,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.InputSummerTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.InputSummerTest.inputSummerTestPositive" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InputFactorialTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InputSummerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InputSummerTest.inputSummerTestPositive" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InputFactorialTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InputSummerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InputSummerTest.inputSummerTestPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -705,11 +749,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484276838385</updated>
-      <workItem from="1484276842935" duration="3573000" />
+      <workItem from="1484276842935" duration="3967000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="InputFactorialTest - 2017.01.13 at 08h 41m 32s.xml">
+      <configuration name="InputFactorialTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputFactorialTest - 2017.01.13 at 08h 41m 50s.xml">
+      <configuration name="InputFactorialTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="InputSummerTest - 2017.01.13 at 08h 25m 29s.xml">
       <configuration name="InputSummerTest" configurationId="JUnit" />
     </history-entry>
@@ -727,11 +777,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3573000" />
+    <option name="totallyTimeSpent" value="3967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -771,7 +821,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -783,22 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -819,20 +855,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputSummerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/InputFactorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputFactorialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="608">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/squier/john/javalabcd12/InputSummerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/squier/john/javalabcd12/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="513">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
