@@ -15,6 +15,8 @@ public class InputFactorial {
                 factorial *= i;
             }
 
+            return factorial;
+
         }
         else if ( input == 0 ) {
 
@@ -26,6 +28,8 @@ public class InputFactorial {
             for ( int i = 1; i >= input; i-- ) {
                 factorial *= i;
             }
+
+            return factorial;
         }
     }
 }
